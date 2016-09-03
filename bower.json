@@ -1,0 +1,17 @@
+{
+  "name": "03-ChangeCalculator",
+  "main": "index.js",
+  "authors": [
+    "Your Name <christiannaga1@gmail.com>"
+  ],
+  "description": "Change Calculator",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

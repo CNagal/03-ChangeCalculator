@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Change Calculator</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 align="center">Change Calculator</h1>
+        <!-- How do I place "moneyDue" and "moneyGiven" labels in same row? -->
+        <br>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 well">
+                <div class="col-xs-12 col-sm-6">
+                    <label>How Much Is Due For The Sale?</label>
+                    <input id="moneyDue" type="number" class="form-control">
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <label>How Much Has The Customer Given You?</label>
+                    <input id="moneyPaid" type="number" class="form-control">
+                    <br>
+                </div>
+            </div>
+        </div>
+        <!-- Separate "Calculate" button from above columns -->
+        <div class="row">
+            <button id="btnChangeCalculate" class="btn btn-primary center-block">Calculate</button>
+            <br>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="text-center well">
+            <h2>Dollars</h2>
+            <p id="p"></p>
+        </div>
+        <div class="row">
+            <!-- Create column to hold other coin labels in one  -->
+            <div class="col-xs-12 col-sm-12 well">
+                <div class="col-xs-3 col-sm-3">
+                    <h3>Quarters</h3>
+                    <br>
+                    <p id="p1"></p>
+                </div>
+                <div class="col-xs-3 col sm-3">
+                    <h3>Dimes</h3>
+                    <br>
+                    <p id="p2"></p>
+                </div>
+                <div class="col-xs-3 col sm-3">
+                    <h3>Nickels</h3>
+                    <br>
+                    <p id="p3"></p>
+                </div>
+                <div class="col-xs-3 col sm-3">
+                    <h3>Pennies</h3>
+                    <br>
+                    <!-- Placeholder for output of function -->
+                    <p id="p4"></p>
+                </div>
+            </div>
+            <p1>
+        </div>
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="index.js"></script>
+</body>
+
+</html>
